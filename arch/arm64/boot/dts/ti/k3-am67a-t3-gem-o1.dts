@@ -889,7 +889,7 @@
 	pressure@1 {
 		spi-max-frequency = <8000000>;
 		reg = <1>;
-		compatible = "st,lps22df";
+		compatible = "st,lps22df-spidev";
 	};
 
 	imu@3 {
