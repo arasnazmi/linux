@@ -887,9 +887,9 @@
 	#size-cells = <0>;
 
 	pressure@1 {
-		spi-max-frequency = <50000000>;
+		spi-max-frequency = <8000000>;
 		reg = <1>;
-		compatible = "bosch,bmp390-spidev";
+		compatible = "st,lps22df-spidev";
 	};
 
 	imu@3 {
